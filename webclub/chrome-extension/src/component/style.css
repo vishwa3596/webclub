@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+.heading{
+    font-family: 'Monoton', cursive;
+    position: relative;
+    padding: 5px;
+    margin: 10px;
+    top: 20px;
+    left: 20px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #55E6C1;
+}
+
+.city_id {
+    padding: 0;
+    position: relative;
+    margin: 5px;
+    top: 50%;
+    left: 50%;
+}
+
+.information {
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.data{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    /* the below line is to bring a little shadow effect around a box*/
+    box-shadow: 0 0 50px rgba(106,235,179,0.2);
+    border-radius: 5px;
+}
+.layout{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    padding: 5px;
+    margin: 10px;
+    font-size: 1rem;
+    color:#23ccff
+}
+.button1{
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #55E6C1;
+}
+.button2{
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #55E6C1;
+}
+
+
+
+

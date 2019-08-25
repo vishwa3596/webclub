@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "weather",
+  "author": "vishwajit",
+  "version": "1.0.1",
+  "description": "weather api.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"]
+}
