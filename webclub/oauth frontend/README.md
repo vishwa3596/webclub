@@ -1,4 +1,4 @@
-#############################################################################################
+
 
 some point i would like to mention about this project are :-
 i have implemented this oauth through Flask Dance which is a library of the Flask framework in 
@@ -7,6 +7,13 @@ python and in frontend i have used Reactjs( framework of Javascript)
 i have made this project to the best that i can do 
 
 it is requested to use this app in incognito mode of the browser.
+
+how to start the project:-
+first of all install requirement.txt file from oauth backend.
+pip install -r requirements.txt for python 2.x
+pip3 install -r requirements.txt for python 3.x
+then open the frontend app and type in terminal -> npm install.
+                     then start the server with -> npm start
 
 It is likely to face internal server error i have tried myself alot to improve this but 
 due to changing version of Flask dance every post is not updated so pls when u find the internel server error 
@@ -21,7 +28,7 @@ In regards of styling i have maintained a minimilistic styling.
 
 this is my 1st of 3 projects i have done for web club.
 Thank you.
-################################################################################################
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
