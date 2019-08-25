@@ -14,6 +14,7 @@ I have made the UI interactive as possible and at the same time kept it minimili
 How to start this project after downloading.
 after downloading the project run -> npm install
                 after that        -> npm start
+install the dependencies mentioned in the requirement.txt file (pip install -r requirements.txt) for python 2 and (pip3 install -r requirements.txt) for python 3.x                
 at the same time run the backend with -> python app.py                
 
 this is a simple project i have created with all my efforts. There is a lot of scope of improvement
