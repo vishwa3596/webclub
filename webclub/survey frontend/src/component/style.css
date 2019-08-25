@@ -1,0 +1,321 @@
+
+/*******************************************result-styling*****************************************************/
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+.result{
+    display: grid;
+}
+.result-heading{
+    position: absolute;
+    text-align: center;
+    font-size: 1rem;
+    color: #55E6C1;
+}
+.language-result{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    /* the below line is to bring a little shadow effect around a box*/
+    box-shadow: 0 0 50px rgba(106,235,179,0.2);
+    border-radius: 5px;
+}
+.framework-result{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    /* the below line is to bring a little shadow effect around a box*/
+    box-shadow: 0 0 50px rgba(106,235,179,0.2);
+    border-radius: 5px;
+}
+.ide-result{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    /* the below line is to bring a little shadow effect around a box*/
+    box-shadow: 0 0 50px rgba(106,235,179,0.2);
+    border-radius: 5px;
+}
+.os-result{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    /* the below line is to bring a little shadow effect around a box*/
+    box-shadow: 0 0 50px rgba(106,235,179,0.2);
+    border-radius: 5px;
+}
+
+/*****************************************homepage-styling******************************************************/
+.heading{
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Monoton', cursive;
+    font-size: 1rem;
+    color: aquamarine;
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    display: grid;
+    grid-template-columns: auto;
+}
+.paragraph{
+    padding: 5px;
+    font-family: 'Monoton', cursive;
+    margin: 10px;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    color: green;
+    display: grid;
+}
+.signup{
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Monoton', cursive;
+    color: hotpink;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+
+}
+.login {
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Monoton', cursive;
+    color: hotpink;
+    position: absolute;
+    top: 55%;
+    left: 46%;
+}
+.homepage-img{
+    background: url("surveyback.png");
+    opacity: 0.2;
+}
+
+/********************************************sign-up************************************************************/
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    text-align: center;
+}
+.signup-form{
+    position: relative;
+    box-sizing: border-box;
+    padding: 60px 30px;
+    transition: .5s;
+}
+.signup-form:hover{
+    background: rgba(194,255,198,0.3);
+    box-shadow: 0 0 20px rgba(215,142,232, 0.2);
+}
+.signup-form h2{
+    margin: 0 0 20px;
+    color: #C484EB;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #C484EB;
+    text-transform: uppercase;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: 'Monoton', cursive;
+}
+.signup-form input::placeholder{
+    color: #C484EB;
+}
+.signup-form input[type="submit"]{
+    color: #C484EB;
+    background: #A8E9C9;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.signup-form input[type="submit"]:hover{
+    background: #57EBC6;
+
+}
+.signup-img{
+    background: url("surveyback.png");
+    opacity: 0.2;
+}
+/************************************************login-form***********************************************************/
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    text-align: center;
+    background: azure;
+}
+.login-form{
+    position: relative;
+    box-sizing: border-box;
+    padding: 60px 30px;
+    transition: .5s;
+}
+.login-form:hover{
+    background: rgba(194,255,198,0.3);
+    box-shadow: 0 0 20px rgba(215,142,232, 0.2);
+}
+.login-form h2{
+    margin: 0 0 20px;
+    color: #C484EB;
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.login-form input{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #C484EB;
+    text-transform: uppercase;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: 'Monoton', cursive;
+}
+.login-form input::placeholder{
+    color: #C484EB;
+}
+.login-form input[type="submit"]{
+    color: #C484EB;
+    background: #A8E9C9;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.login-form input[type="submit"]:hover{
+    background: #57EBC6;
+}
+.login-img{
+    background: url("surveyback.png");
+    opacity: 0.2;
+}
+
+/**************************************************survey area ******************************************************/
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 340px;
+    text-align: center;
+    background: azure;
+}
+.content h3{
+    font-family: 'Monoton', cursive;
+    font-size: 0.8rem;
+
+}
+.poll{
+    position: relative;
+    box-sizing: border-box;
+    padding: 60px 30px;
+    transition: .5s;
+}
+.poll input{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #C484EB;
+    text-transform: uppercase;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: 'Monoton', cursive;
+}
+.poll select{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    outline: none;
+}
+.poll input[type="submit"]{
+    color: #C484EB;
+    background: #A8E9C9;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.poll input[type="submit"]:hover{
+    background: #57EBC6;
+}
+.poll-img{
+    background: url("surveyback.png");
+    opacity: 0.2;
+}
+/*****************************************error-page******************************************************************/
+
+.error{
+    padding: 0px;
+    margin: 10px;
+    font-family: 'Monoton', cursive;
+    font-size: 0.7rem;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
