@@ -1,3 +1,18 @@
+I would like to share few details about my project:-
+
+Tools and Frameworks i have used in this project- I have used Reactjs in the frontend of the project and i have used basic css for styling. The api I have used is same as provided in the resouces section of the project.
+
+Challenges and learning form this project:- For the first Time I have created Chrome extension and I had faced a lot of issue in enabling the extension because of CSP error. The Content below is from (https://developer.chrome.com/extensions/contentSecurityPolicy). In order to mitigate a large class of potential cross-site scripting issues, Chrome's extension system has incorporated the general concept of Content Security Policy (CSP) . This introduces some fairly strict policies that will make extensions more secure by default, and provides you with the ability to create and enforce rules governing the types of content that can be loaded and executed by your extensions and applications. After a lot of googling i found a post of react developer how to build the project with switching off the INLINE SCRIPTS. which finally healped me in creating the extension.
+
+How the project works:- After downloading the code open terminal in project folder and run the command -> npm install then to build the project run the command -> npm run build
+
+After building the project open chrome://extensions and load the package -> 1) go to the project folder and select the Build Folder WHEN YOU ENABLE THE EXTENSION WHENEVER YOU OPEN THE NEW TAB THE APP WILL LOAD AND IT WILL ASK YOUR LOCATION AND PROJECT THE WEATHER FOR THE FOLLOWING 5 DAYS.TO SWITCH OFF THE EXTENSION AGAIN GO TO chrome://extensions AND TURN IT OF AND NOW THE NEW TAB WILL OPEN WITHOUT THE APP.
+
+this project might have a errors.
+
+this is 2nd of 3 project i have submitted in the web club task. THANK YOU
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
